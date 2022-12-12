@@ -24,12 +24,6 @@
                 <div class="description text-white">
                     <div class="row">
                         <div class="col-sm">
-                            <b class="text-dark">ID</b>
-                        </div>
-                        <p class="text-dark" style="padding-top: 10px">{{ $product->id }}</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm">
                             <b class="text-dark">Product ID</b>
                         </div>
                         <p class="text-dark" style="padding-top: 10px">{{ $product->productId }}</p>
@@ -75,12 +69,6 @@
 
 
         </div>
-        <div class="row">
-            <div class="col-sm">
-                <a href="" class="btn btn-outline-primary" role="button" style="size: 20px">Edit Data</a>
-            </div>
-        </div>
-        
 
     </div>
 </body>
